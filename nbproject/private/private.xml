@@ -5,7 +5,12 @@
         <group>
             <file>file:/C:/xampp/htdocs/karce-blog/controller/create-db.php</file>
             <file>file:/C:/xampp/htdocs/karce-blog/index.php</file>
-            <file>file:/C:/xampp/htdocs/karce-blog/model/database.php</file>
+            <file>file:/C:/xampp/htdocs/karce-blog/model/config.php</file>
+            <file>file:/C:/xampp/htdocs/karce-blog/view/footer.php</file>
+            <file>file:/C:/xampp/htdocs/karce-blog/view/header.php</file>
+            <file>file:/C:/xampp/htdocs/karce-blog/post.php</file>
+            <file>file:/C:/xampp/htdocs/karce-blog/controller/create-post.php</file>
+            <file>file:/C:/xampp/htdocs/karce-blog/view/navigation.php</file>
         </group>
     </open-files>
 </project-private>

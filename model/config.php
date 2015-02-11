@@ -1,5 +1,5 @@
 <?php
-
+$path = "/karce-blog/";
 
 $host = "localhost";
 $username = "root";
