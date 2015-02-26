@@ -64,6 +64,10 @@ background: url(polina.jpg) no-repeat;
      background-color: #2aabd2;
 }
 
-.page-header{
-    background: url()
+#poptarts{
+    width: 300px;
+        height: 300px;
+        
+        border-width: 4px;
+        border-color: red;
 }
