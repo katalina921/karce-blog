@@ -12,7 +12,7 @@
     </head>
 <body>
         <ul class="nav nav-tabs" role="tablist" id="nav">
-            <li class="active"><a href="portfolio.html">Home</a></li>
+            <li class=""><a href="portfolio.html">Home</a></li>
             <li><a href="index.php">Blog</a></li>
             <li><a href="post.php">Create Post</a></li>
             <li><a href="controller/logout-user.php">Logout</a></li>
@@ -21,9 +21,6 @@
         </ul>
     </body>
 </html>
-
-
-
 
 <?php
 require_once(__DIR__ . "/controller/login-verify.php");
