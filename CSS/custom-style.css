@@ -45,8 +45,8 @@ a{
     }
     
     .jumbotron{
-        width: 500px;
-        height: 600px;
+        width: 900px;
+        height: 500px;
         border-style: dotted;
         border-width: 4px;
         border-color: red;
@@ -60,4 +60,8 @@ background: url(polina.jpg) no-repeat;
  
 
 }
+#nav{
+     background-color: #d9534f;
+}
+
 

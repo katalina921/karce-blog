@@ -1,3 +1,5 @@
+<!-------allows us to created a post------->
+
 <?php
 
 require_once(__DIR__ . "/../model/config.php");
