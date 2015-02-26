@@ -1,3 +1,5 @@
+<!------how we can log in---------->
+
 <?php
 require_once(__DIR__ . "/../model/config.php");
 
@@ -17,6 +19,6 @@ require_once(__DIR__ . "/../model/config.php");
     </div>
     
     <div>
-        <button type="submit">Submit</button>
+        <button type="submit" href="portfolio.html">Submit</button>
     </div>
 </form>

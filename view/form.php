@@ -1,6 +1,8 @@
+<!--------allowing us to make a comment and post it---->
+
 <?php
 require_once(__DIR__ . "/../model/config.php");
-require_once(__DIR__ . "/../vontroller/login-verify.php");
+require_once(__DIR__ . "/../controller/login-verify.php");
 
 if(!authenticateUser()){
     header("Location: " . $path . "index.php");
