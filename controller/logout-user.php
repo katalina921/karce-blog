@@ -1,3 +1,5 @@
+<!------lets us log out----->
+
 <?php
 require_once(__DIR__ . "/../model/config.php");
 

@@ -1,3 +1,6 @@
+
+<!-------lets us be logged in--------->
+
 <?php
 
 require_once(__DIR__ . "/../model/config.php");
@@ -12,12 +15,12 @@ if($query->num_rows == 1){
     
     if($row["password"] === crypt($password, $row["salt"])){
        $_SESSION["authenticated"] = true;
-        echo "<p>Login Successful!</p>";
+        header("Location: " . $path . "index.php");
     }
     else{
-        echo "<p> Invalid username and password </p>";
+        echo "<p> Invalid username and password1</p>";
     }
 }
 else{
-    echo "<p> Invalid username and password</p>";
+    echo "<p> Invalid username and password2</p>";
 }
